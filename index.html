@@ -6,10 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the site responsive -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ensures compatibility with Internet Explorer -->
         <link rel="stylesheet" href="./style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
         <title>The Little Lemon</title>
     </head>
     <body>
-        <h3>Welcome to the Little Lemon Restaurant</h3>
+        <header>
+            <h1>Little Lemon Boujee Bites 🍋</h1>
+        </header>
+        
+        <main>
+           <section id="menu-section">
+               <!-- Adding my menu cards here via JavaScript -->
+               <diV id="menu-list"></diV>
+               <div id="menu-display"></div>
+           </section>
+
+           <div id="order-summary" class="hidden">
+               <!-- The ordered items summary will go here -->
+           </div>
+        </main>   
+
         <script src="./script.js"></script>
     </body>
 </html>
+
