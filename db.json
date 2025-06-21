@@ -1,75 +1,162 @@
 {
   "menu": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Smoked Nyama Choma Platter",
       "price": 1200,
       "image": "https://taste.co.za/wp-content/uploads/2020/11/NYAMA-CHOMA.jpg",
       "description": "Chargrilled beef cuts marinated in house spices, served with herb flatbread and fire-roasted pepper sauce."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Truffle Ugali Bites with Sukuma Aioli",
       "price": 750,
       "image": "https://cdn.fastpixel.io/fp/ret_img+v_c905+sc_6x0:1588x893:1372x772+q_lossy+to_webp/reallyeats.com/wp-content/uploads/2024/07/Ugali-with-Sukuma-Wiki-2048x1143.jpg",
       "description": "Crispy ugali cubes infused with truffle oil, paired with creamy sukuma wiki aioli dip."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Zanzibar Coconut Tilapia",
       "price": 950,
       "image": "https://www.kaluhiskitchen.com/wp-content/uploads/2022/10/HOW-TO-COOK-CREAMY-TILAPIA_HOW-TO-COOK-TILAPIA-WITH-COCONUT-CREAM_CREAMY-TILAPIA_KENYAN-TILAPIA-RECIPE_KALUHISKITCHEN-13.jpg",
       "description": "Pan-seared lake tilapia in a rich coconut curry sauce, served with a side of coconut rice and fried plantains."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Pilau Risotto with Cardamom Lamb",
       "price": 1100,
       "image": "https://th.bing.com/th/id/OIP.-Afgyc_zp_G84_1LtjsiTAHaHr?rs=1&pid=ImgDetMain",
       "description": "A Swahili-inspired twist on risotto, slow-cooked with fragrant pilau spices and topped with tender lamb."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Charred Chapati Tacos (Ndengu + Kachumbari)",
       "price": 800,
       "image": "https://i0.wp.com/www.recipesandplaces.com/wp-content/uploads/2023/01/IMG_4154.jpg?fit=1024%2C1024&ssl=1",
       "description": "Folded mini chapatis filled with spiced green grams and fresh kachumbari salsa — street food meets gourmet."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Githeri Buddha Bowl",
       "price": 650,
       "image": "https://th.bing.com/th/id/OIP.5uN5gsvqPMfaf20wpAUmWwHaFf?rs=1&pid=ImgDetMain",
       "description": "A nourishing bowl of classic githeri, roasted veggies, avocado slices, and a tangy lemon dressing."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Mango Chili Kuku Skewers",
       "price": 900,
       "image": "https://th.bing.com/th/id/OSK.75e95c19af1834851bdaae6a04833d9e?w=194&h=291&rs=2&qlt=80&o=6&cdv=1&dpr=2.3&pid=16.1",
       "description": "Grilled kienyeji chicken glazed with mango chili sauce, served on skewers with roasted corn mash."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Matoke Mash with Creamy Spinach",
       "price": 700,
       "image": "https://th.bing.com/th/id/OIP.gcqX5iqvA-l3qeoWETsIqgHaLH?w=202&h=303&c=7&r=0&o=7&dpr=2.3&pid=1.7&rm=3",
       "description": "Silky mashed matoke served with sautéed spinach in garlic cream sauce and toasted sesame seeds."
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Samosa Trio with Tamarind Dip",
       "price": 550,
       "image": "https://th.bing.com/th/id/OIP.ypRidWQDcprMVb_3uUIDegHaHa?w=190&h=190&c=7&r=0&o=7&dpr=2.3&pid=1.7&rm=3",
       "description": "A gourmet sampler of beef, chicken, and veggie samosas served with a house-made tamarind chutney."
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Rosemary Infused Mandazi Stack",
       "price": 480,
       "image": "https://th.bing.com/th/id/OIP.suCci0OmgjZIB2_jYeBiNgHaHa?w=174&h=180&c=7&r=0&o=7&dpr=2.3&pid=1.7&rm=3",
       "description": "Fluffy mandazi rounds with a hint of rosemary and cardamom, lightly dusted with cinnamon sugar."
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "db0f",
+      "name": "",
+      "email": "",
+      "order": [
+        "Mango Chili Kuku Skewers"
+      ],
+      "total": "828.00",
+      "status": "paid",
+      "time": "6/21/2025, 11:51:13 AM"
+    },
+    {
+      "id": "704c",
+      "name": "James Allan",
+      "email": "jamesallan@me.com",
+      "order": [
+        "Truffle Ugali Bites with Sukuma Aioli",
+        "Zanzibar Coconut Tilapia"
+      ],
+      "total": "1564.00",
+      "status": "paid",
+      "time": "6/21/2025, 11:59:35 AM"
+    },
+    {
+      "id": "e92c",
+      "name": "James Allan",
+      "email": "jamesallan@me.com",
+      "order": [
+        "Truffle Ugali Bites with Sukuma Aioli",
+        "Zanzibar Coconut Tilapia"
+      ],
+      "total": "1564.00",
+      "status": "paid",
+      "time": "6/21/2025, 11:59:35 AM"
+    },
+    {
+      "id": "235e",
+      "name": "Lisa Adams",
+      "email": "adams_lisa20@mail.com",
+      "order": [
+        "Samosa Trio with Tamarind Dip"
+      ],
+      "total": "550.00",
+      "status": "paid",
+      "time": "6/21/2025, 12:04:35 PM"
+    },
+    {
+      "id": "dacb",
+      "name": "Anna Hilton",
+      "email": "anna198@mail.com",
+      "order": [
+        "Pilau Risotto with Cardamom Lamb"
+      ],
+      "total": "847.00",
+      "discountApplied": 0.22999999999999998,
+      "firstTimeCustomer": true,
+      "status": "paid",
+      "time": "6/21/2025, 12:36:41 PM"
+    },
+    {
+      "id": "7ead",
+      "name": "Steve Arnold",
+      "email": "arnold657@mail.com",
+      "order": [
+        "Matoke Mash with Creamy Spinach",
+        "Zanzibar Coconut Tilapia"
+      ],
+      "total": "1270.50",
+      "discountApplied": 0.22999999999999998,
+      "firstTimeCustomer": true,
+      "status": "paid",
+      "time": "6/21/2025, 1:05:45 PM"
+    },
+    {
+      "id": "b147",
+      "name": "Angel Waceke",
+      "email": "waceke890@me.com",
+      "order": [
+        "Rosemary Infused Mandazi Stack"
+      ],
+      "total": "408.00",
+      "discountApplied": "0.15",
+      "firstTimeCustomer": true,
+      "status": "paid",
+      "time": "6/21/2025, 1:18:03 PM"
+    }
+  ]
 }

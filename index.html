@@ -21,9 +21,24 @@
                <div id="menu-display"></div>
            </section>
 
-           <div id="order-summary" class="hidden">
+           <form id="order-summary" class="hidden">
                <!-- The ordered items summary will go here -->
-           </div>
+                <h3>Your order</h3>
+
+                <label for="userName">Name</label>
+                <input type="text" id="userName" required>
+
+                <label for="userEmail">Email</label>
+                <input type="text" id="userEmail" required>
+
+                <ul id="ordered-list"></ul>
+                <p id="order-subtotal"></p>
+                <p id="applied-discount" class="hidden"></p>
+                <p id="welcome-discount" class="hidden"></p>
+                <p id="total"></p>
+
+                <button id="checkoutButton"></button>
+           </form>
         </main>   
 
         <script src="./script.js"></script>
