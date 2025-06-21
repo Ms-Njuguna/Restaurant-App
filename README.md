@@ -4,7 +4,7 @@
 
 An interactive restaurant menu web app with a side menu, dynamic item display, and an order summary panel — complete with discounts for first-time customers and large orders!
 
-![Little Lemon Boujee Bites Preview](images/Restaurant-App.gif)
+![Little Lemon Boujee Bites Preview](/.images/Restaurant-App.gif)
 
 ---
 
