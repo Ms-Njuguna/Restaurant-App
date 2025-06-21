@@ -157,6 +157,47 @@
       "firstTimeCustomer": true,
       "status": "paid",
       "time": "6/21/2025, 1:18:03 PM"
+    },
+    {
+      "id": "03d2",
+      "name": "James Allan",
+      "email": "jamesallan@me.com",
+      "order": [
+        "Mango Chili Kuku Skewers"
+      ],
+      "total": "828.00",
+      "discountApplied": "0.08",
+      "firstTimeCustomer": false,
+      "status": "paid",
+      "time": "6/21/2025, 3:42:09 PM"
+    },
+    {
+      "id": "1235",
+      "name": "Patricia Kimani",
+      "email": "kimani2079@mail.ae",
+      "order": [
+        "Smoked Nyama Choma Platter",
+        "Truffle Ugali Bites with Sukuma Aioli"
+      ],
+      "total": "1501.50",
+      "discountApplied": "0.23",
+      "firstTimeCustomer": true,
+      "status": "paid",
+      "time": "6/21/2025, 3:42:53 PM"
+    },
+    {
+      "id": "190a",
+      "name": "Lisa Adams",
+      "email": "adams_lisa20@mail.com",
+      "order": [
+        "Smoked Nyama Choma Platter",
+        "Matoke Mash with Creamy Spinach"
+      ],
+      "total": "1748.00",
+      "discountApplied": "0.08",
+      "firstTimeCustomer": false,
+      "status": "paid",
+      "time": "6/21/2025, 4:07:17 PM"
     }
   ]
 }

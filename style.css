@@ -1,0 +1,310 @@
+/* General page layout */
+body {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #1f2937;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 400px;
+  gap: 3rem; /* adds space between h1 and #menu-section */
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  margin-left: 530px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.main-title {
+  font-size: 2.2rem !important;
+  color: #ca8a04;
+  font-weight: bolder;
+}
+
+/* Menu section layout */
+#menu-section {
+  width: 150%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: -150px;
+}
+
+@media (min-width: 1024px) {
+  #menu-section {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+/* Menu list (left column) */
+#menu-list {
+  list-style: none;
+  padding: 1rem;
+  background-color: #fefcbf;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: auto;
+  gap: 1rem;
+}
+
+#menu-list li {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #d4bb00;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+#menu-list li:last-child {
+  border-bottom: none;
+}
+
+#menu-list li:hover {
+  background-color: #fef08a;
+  transform: scale(1.02);
+}
+
+/* Responsive adjustment */
+@media (max-width: 1023px) {
+  #menu-list {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Menu display card (right column) */
+#menu-display {
+  padding: 1.25rem;
+  background-color: #fefce8;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  height: 600px;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  box-sizing: border-box;
+}
+
+/* Dish card layout */
+.dishCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+/* Dish image */
+.dishCard img {
+  width: 370px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Dish title */
+.dishCard h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+/* Dish description */
+.dishCard p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+/* Price + Order Button container */
+.dishCard .price-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: auto;
+  gap: 1rem;
+}
+
+/* Price */
+.dishCard .price {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+/* Order button */
+.dishCard button {
+  background-color: #facc15;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dishCard button:hover {
+  background-color: #eab308;
+}
+
+/* Order summary section */
+#order-summary {
+  background-color: #ca8a04;
+  padding: 6.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 700px;
+  margin-left: 80px;
+  margin-right: auto;
+  display: hidden;
+}
+
+#order-summary h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Ordered items list */
+#ordered-list {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+#ordered-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a47104;
+    padding: 1.5rem 0; 
+    font-weight: 500;
+    gap: 1rem;
+}
+
+#ordered-list li span {
+  flex: 1; /* evenly space dish name and price */
+}
+
+#ordered-list li button {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #ef4444;
+  border-radius: 0.375rem;
+  background-color: #fee2e2;
+  color: #b91c1c;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#ordered-list li button:hover {
+  background-color: #fecaca;
+}
+
+/* Inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#form-group{
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Discount messages */
+#applied-discount,
+#welcome-discount {
+  color: #047857;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: hidden;
+}
+
+/* Total price */
+#total {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/* Checkout button */
+#checkoutButton {
+  background-color: #facc15;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#checkoutButton:hover {
+  background-color: #eab308;
+}
+
+/* Mobile responsiveness cleanup */
+@media (max-width: 768px) {
+  #menu-section {
+    flex-direction: column;
+  }
+
+  #menu-list,
+  #menu-display {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .dishCard img {
+    width: 100%;
+    height: auto;
+  }
+
+  .dishCard .price-order {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

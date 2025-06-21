@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const index = currentOrders.length - 1;
         orderedDishes.innerHTML = `
             <span>${dish.name}</span>
-            <span>${dish.price}</span>
+            <span>kes: ${dish.price}</span>
         `;
 
         const removeButton = document.createElement('button')

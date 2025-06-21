@@ -10,11 +10,11 @@
         <title>The Little Lemon</title>
     </head>
     <body>
-        <header>
-            <h1>Little Lemon Boujee Bites 🍋</h1>
+        <header class="header">
+            <h1 class="main-title">🍋 Little Lemon Boujee Bites 🍋</h1>
         </header>
-        
         <main>
+
            <section id="menu-section">
                <!-- Adding my menu cards here via JavaScript -->
                <diV id="menu-list"></diV>
@@ -25,11 +25,16 @@
                <!-- The ordered items summary will go here -->
                 <h3>Your order</h3>
 
-                <label for="userName">Name</label>
-                <input type="text" id="userName" required>
-
-                <label for="userEmail">Email</label>
-                <input type="text" id="userEmail" required>
+                <div id="form-group">
+                    <label for="userName">Name</label>
+                    <input type="text" id="userName" required>
+                </div>
+                
+                <div id="form-group">
+                    <label for="userEmail">Email</label>
+                    <input type="text" id="userEmail" required>
+                </div>
+                
 
                 <ul id="ordered-list"></ul>
                 <p id="order-subtotal"></p>
