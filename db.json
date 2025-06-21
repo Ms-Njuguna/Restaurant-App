@@ -198,6 +198,19 @@
       "firstTimeCustomer": false,
       "status": "paid",
       "time": "6/21/2025, 4:07:17 PM"
+    },
+    {
+      "id": "3543",
+      "name": "Patricia Kimani",
+      "email": "Kimani2079@mail.ae",
+      "order": [
+        "Pilau Risotto with Cardamom Lamb"
+      ],
+      "total": "847.00",
+      "discountApplied": "0.23",
+      "firstTimeCustomer": true,
+      "status": "paid",
+      "time": "6/21/2025, 4:22:04 PM"
     }
   ]
 }
